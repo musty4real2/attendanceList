@@ -8,18 +8,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <title>My Attendance List</title>
 </head>
 
 <body>
     <div class="container">
-        <img src="assets/cat.png" alt="">
+        <img src="./assets/android-chrome-192x192.png" alt="">
         <input type="text" id="username" placeholder="Username">
-        <input type="text" id="date" placeholder="date" readonly>
-        <input type="text" id="time" placeholder="time" readonly>
-        <button id="clockin" type="button">Clock In</button>
-        <ul id="shopping-list">
-        </ul>
+        <input type="text" id="date" placeholder="date">
+        <input type="text" id="time" placeholder="time">
+        <button id="clock" type="button">Clock In</button>
+        <table border="1" width="100%" id="attendance-list">
+
+
+        </table>
     </div>
 
     <script src="script.js" type="module"></script>
