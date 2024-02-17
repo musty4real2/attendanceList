@@ -17,7 +17,7 @@ body {
 }
 
 img {
-    width: 150px;
+    width:max-content;
     margin: 0 auto;
 }
 
